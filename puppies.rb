@@ -7,6 +7,7 @@ if p > 0
   puts "No more puppies!"
 elsif p < 0 
   puts "Well done, Rachel!"
+  end 
 end 
 
 no_puppies 
