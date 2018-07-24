@@ -3,10 +3,10 @@
 def no_puppies 
   puts "How many dogs do you have, Rachel?"
   p = gets.chomp 
-if p > 0 
-  puts "No more puppies!"
-elsif p < 0 
-  puts "Well done, Rachel!"
+  if p > 0 
+    puts "No more puppies!"
+  elsif p < 0 
+    puts "Well done, Rachel!"
   end 
 end 
 
